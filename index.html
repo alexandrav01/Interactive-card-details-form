@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Interactive card details form</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <img src="./images/bg-main-mobile.png" alt="background" />
+        <img src="./images/bg-main-desktop.png" alt="background" />
+
+        <div>
+          <div>
+            <img src="./images/bg-card-front.png" alt="bg-card-front" />
+            <img src="./images/card-logo.svg" alt="card-logo" />
+          </div>
+          <div>0000 0000 0000 0000</div>
+          <div>
+            <div>Jane Appleseed</div>
+            <div>00/00</div>
+          </div>
+        </div>
+
+        <div>
+          <img src="./images/bg-card-back.png" alt="bg-card-back" />
+          000
+        </div>
+      </div>
+
+      <form>
+        <div>Cardholder Name</div>
+        <input
+          autocomplete="off"
+          autofocus
+          type="text"
+          placeholder="e.g. Jane Appleseed"
+        />
+
+        <div>Card Number</div>
+        <input
+          autocomplete="off"
+          autofocus
+          type="number"
+          placeholder="e.g. 1234 5678 9123 0000"
+        />
+
+        <div>
+          <div>Exp. Date (MM/YY)</div>
+          <div>CVC</div>
+        </div>
+        <input autocomplete="off" autofocus type="number" placeholder="MM" />
+        <input autocomplete="off" autofocus type="number" placeholder="YY" />
+        <input
+          autocomplete="off"
+          autofocus
+          type="number"
+          placeholder=" e.g. 123"
+        />
+      </form>
+
+      <button type="submit">Confirm</button>
+    </div>
+  </body>
+</html>
