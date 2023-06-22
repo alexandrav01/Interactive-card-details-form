@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+}
+
+.button{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 3rem;
+    background-color: hsl(278, 68%, 11%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-number{
+    position: relative;
+    top: -125px;
+    left: 55px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 4px;
+    width: 300px;
+}
+
+.card-cvc{
+    position: relative;
+    top: -233px;
+    left: 385px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    width: 30px;
+}
+
+.card-name-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: -100px;
+    left: 55px;
+}
+
+.cardholder{
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px hsl(270, 3%, 87%);
+    border-radius: 10px;
+}
+
+.card-number-form-wrap{
+    margin-top: 20px;
+}
+
+.card-number-form{
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+    border: solid 1px hsl(270, 3%, 87%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cvc{
+    width: 170px;
+    height: 3rem;
+    margin-top: 10px;
+    border: solid 1px hsl(270, 3%, 87%);
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.desktop-bg{
+    display: none;
+}
+
+.exp-cvc-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.mm-wrap{
+    width: 100px;
+    height: 3rem;
+    margin-top: 10px;
+    border: solid 1px hsl(270, 3%, 87%);
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.mm-yy-cvc-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-wrap{
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: hsl(278, 68%, 11%);
+    margin-bottom: 50px;
+}
+
+.mobile-bg{
+    width: 100vh;
+    }
+
+::placeholder{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(270, 3%, 87%);
+}
+
+.yy-wrap{
+    width: 100px;
+    height: 3rem;
+    margin-top: 10px;
+    border: solid 1px hsl(270, 3%, 87%);
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+    
+}
+
