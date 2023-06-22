@@ -1,1 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+}
+
+.button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    background-color: hsl(278, 68%, 11%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.card-number{
+    position: relative;
+    top: -125px;
+    left: 55px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 4px;
+    width: 300px;
+}
+
+.card-name-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: -100px;
+    left: 55px;
+}
+
+.card-cvc{
+    position: relative;
+    top: -233px;
+    left: 385px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    width: 30px;
+}
+
+.desktop-bg{
+    display: none;
+}
+
+.mobile-bg{
+    width: 100vh;
+    }
+
+.success-icon{
+    width: 100px;
+    }
+
+.thanks-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.text{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(279, 6%, 55%);
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.text-wrap{
+    padding: 50px;
+}
